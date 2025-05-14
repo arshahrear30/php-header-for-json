@@ -1,0 +1,13 @@
+<?php
+  
+  //Array এটা কিন্তু দেখতে hashmap এর মত
+
+$userInfo['name'] = "A R Shahrear";
+$userInfo['mobile'] = "999";
+$userInfo['email'] = "@gmail.com";
+
+echo json_encode($userInfo); // json এ encode করো 
+//json_encode() এটিকে JSON string-এ রূপান্তর করছে, যেটা JavaScript-এ object হিসেবে ব্যবহার করা যায়।
+//PHP অ্যারেকে JSON ফরম্যাটে রূপান্তর করেছো json_encode() ব্যবহার করে। এটি ওয়েব অ্যাপ্লিকেশন বা API-তে ডেটা আদান-প্রদানে খুবই গুরুত্বপূর্ণ।
+// JSON ডেটা সাধারণত API-তে পাঠানো হয় বা JavaScript-এ ব্যবহার করার জন্য উপযুক্ত।
+?>
